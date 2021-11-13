@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Fin reset */
+
+/* challenge */
+body{
+  background-color: #e6eff6;
+  color: #fff;
+  font-family: 'Karla', sans-serif;font-size: 14px;
+  line-height: 1.5;
+}
+h1{font-weight: 700;margin-bottom: 22px;font-size: 22px;color: #2bb3b1;}
+h2{font-weight: 700;margin-bottom: 22px;font-size: 18.5px;}
+
+.container{
+	max-width: 650px;
+  width: 100%;
+  margin: 13% auto;
+}
+.content-top{
+  background-color: #fff;
+  color: lightgrey;
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+}
+.content-top h1{color: #2bb3b1;}
+.content-top span{color: #bfdf32;font-size: 18.5px;}
+.content-top p{margin-top: 14px;}
+.content-bottom{
+  display: flex;
+}
+.left{
+  background-color: #2bb3b1;
+  width: 50%;
+  padding: 30px;
+  border-radius: 0 0 0 10px;
+}
+.price{
+	display: flex;
+	align-items: center;
+}
+.left .opacity{
+  color: #a9efef;
+}
+.left span{
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.right{
+  background-color: #4abebd;
+  width: 50%;
+  padding: 30px;
+  border-radius: 0 0 10px 0;
+}
+.right p{color: #a9efef;}
+input{
+  font-size: 16px;
+  background-color: #bfdf32;color: #fff;
+  border: none;border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  margin-top: 33px;
+  box-shadow: 3px 5px 13px 1px rgba(0,0,0,0.3);
+  transition: .3s;
+}
+input:hover{
+  background-color: #fff;
+  color: #bfdf32;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px)
+{
+	.container{margin-top: 25%;}
+}
+@media screen and (max-width: 680px)
+{
+	.container{
+		max-width: 350px;
+	}
+	.content-top{
+		width: 75%;
+	}
+	.content-bottom{
+		flex-direction: column;
+	}
+	.left{
+		border-bottom-left-radius: 0;
+		width: 75%;
+	}
+	.right{
+		width: 75%;
+		border-bottom-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+}
+@media screen and (max-width: 375px)
+{
+	.wrap{
+		max-width: 375px;
+	}
+}
