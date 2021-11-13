@@ -49,11 +49,12 @@ table {
 /* Fin reset */
 
 /* challenge */
-body{
-  background-color: #e6eff6;
-  color: #fff;
-  font-family: 'Karla', sans-serif;font-size: 14px;
-  line-height: 1.5;
+body {
+	background-color: #e6eff6;
+	color: #fff;
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 }
 h1{font-weight: 700;margin-bottom: 22px;font-size: 22px;color: #2bb3b1;}
 h2{font-weight: 700;margin-bottom: 22px;font-size: 18.5px;}
@@ -100,16 +101,19 @@ h2{font-weight: 700;margin-bottom: 22px;font-size: 18.5px;}
   border-radius: 0 0 10px 0;
 }
 .right p{color: #a9efef;}
-input{
-  font-size: 16px;
-  background-color: #bfdf32;color: #fff;
-  border: none;border-radius: 5px;
-  cursor: pointer;
-  width: 100%;
-  padding: 15px;
-  margin-top: 33px;
-  box-shadow: 3px 5px 13px 1px rgba(0,0,0,0.3);
-  transition: .3s;
+input {
+	font-size: 16px;
+	font-family: 'Karla', sans-serif;
+	background-color: #bfdf32;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	padding: 15px;
+	margin-top: 33px;
+	box-shadow: 3px 5px 13px 1px rgba(0, 0, 0, 0.3);
+	transition: .3s;
 }
 input:hover{
   background-color: #fff;
